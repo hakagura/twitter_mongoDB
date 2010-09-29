@@ -1,0 +1,13 @@
+ul.twits {
+  list-style: none;
+}
+body {line-height:1.5;background:#4C3A2C;}
+.info {
+	background:#f6f4cd;
+	color:#205791;
+	border-color:black;
+	border-style:groove;
+}
+#header{
+	background-color: #61b14f;
+}

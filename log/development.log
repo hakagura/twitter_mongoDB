@@ -1,0 +1,2895 @@
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:06:32 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+Rendered twits/index.html.haml within layouts/application (43.2ms)
+Completed 200 OK in 69ms (Views: 68.7ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/744055840/Photo_51_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000001')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000002'), "text"=>"GUUUUUUUUURL heather morris killed it in glee. i wish there was more britney though."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1132770456/image_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000003')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000004'), "text"=>"RT @msamandaearl: OMG NAYA RIVERA AND HEATHER MORRIS YOU GODDESSES."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1091369789/DSCN6215_resize_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000005')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000006'), "text"=>"Wow, the britney episode of glee was insane!! Heather morris is so freaking talented!!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1092659056/Mickey_normal.png", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000007')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000008'), "text"=>"@JkAlexanderrr It truly was! #Glee plus @britneyspears mix some Heather Morris in there you get a #TotalFreakingWin! :D"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1122960854/image_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000009')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00000a'), "text"=>"The Britney/Brittany #GLEE episode was SPECTACULAR!!! Heather Morris, I love you!! @britneyspears I LOVE YOU!!! &lt;3"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1111601483/100825_214400_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee00000b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00000c'), "text"=>"@britneyspears I LOVED THE EPISODE!!!!! Britney Spears Glee Heather Morris is so HOT serious you're hot *p*"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1132770456/image_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee00000d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00000e'), "text"=>"RT @heatherhydro: &quot;Leave britney alone&quot; heather morris and naya rivera rock chris colfer is a bad ass"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1017345218/jimmy5_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee00000f')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000010'), "text"=>"&quot;Britney Spears episode&quot; &quot;Heather Morris&quot; &quot;Baby One More&quot; &quot;#britneyspearsglee&quot; and &quot;Glee episode&quot; are all trending right now. APPROVED!!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/254086617/FanyBEU4_copy__normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000011')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000012'), "text"=>"@Sunnylmfao FUCK YES. #Heather Morris is awesomeee. omg seriously, the BEST brittany lines on Glee today! LOVED it!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1111760307/this_is_krista_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000013')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000014'), "text"=>"ohmy to the lanta this episode of glee was AMAZING!!!! Heather morris basically killed it tonight. i LOVE this episdoe seriously. #imagleek"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1037689177/25577_10150118486780408_646640407_1_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000015')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000016'), "text"=>"really liked Glee tonight!! So glad they finally gave Heather Morris a chance to sing a solo. She was awesome!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1129020606/Vampire_Diaries_Tyler_and_Jeremy_season_2_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000017')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee000018'), "text"=>"@YahooTV and when Sue pulled the fire Alarm. Heather Morris is BRILLIANT. She is the real star of Glee! #Glee she did Britney Justice!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1132139352/image_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee000019')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00001a'), "text"=>"Dear Ryan Murphy...please let Heather Morris sing more...and more dancing like in Me Against  the Music please.  She was AMAZING #Glee"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1012801740/Editted_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee00001b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00001c'), "text"=>"Heather Morris is a goddess."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/485564678/andy_website009001_normal.jpg", "_id"=>BSON::ObjectID('4ca2bc4805429123ee00001d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bc4805429123ee00001e'), "text"=>"Heather Morris for Best Supporting Actress in a Comedy. #Emmys #Glee"}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:11:05 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+Rendered twits/index.html.haml within layouts/application (5.7ms)
+Completed   in 13ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:8:in `to_s'
+  app/views/twits/index.html.haml:8:in `_app_views_twits_index_html_haml__389916504_2197936740_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197936740_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:11:14 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+Rendered twits/index.html.haml within layouts/application (5.9ms)
+Completed   in 13ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:8:in `to_s'
+  app/views/twits/index.html.haml:8:in `_app_views_twits_index_html_haml__389916504_2196745240_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196745240_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:11:16 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+Rendered twits/index.html.haml within layouts/application (106.3ms)
+Completed   in 114ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:8:in `to_s'
+  app/views/twits/index.html.haml:8:in `_app_views_twits_index_html_haml__389916504_2195676780_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2195676780_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:14:30 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+Rendered twits/index.html.haml within layouts/application (5.7ms)
+Completed   in 13ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2196787600_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196787600_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1124708117/JCTwitterNew_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000001')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000002'), "text"=>"Tonight #GLEE episode was amazing... Congrats Heather Morris, @NayaRivera, @msleamichele, @druidDUDE &amp; @britneyspears"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1099837379/ProfilePhoto_normal.png", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000003')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000004'), "text"=>"Just got out of work. I haven't seen the Glee. DON'T TELL ME! I just know that Heather Morris rocked it. #HeMo #HeMo #HeMo #HeMo #HeMo #HeMo"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1126664182/Untitled1_normal.png", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000005')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000006'), "text"=>"holy Heather Morris! Such a great ep. 'Are you a cat?' #glee"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/978514325/me__normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000007')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000008'), "text"=>"Heather Morris and John Stamos were awesome (as always!), but...  I dunno. I'll be quiet now."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/803792235/Photo_on_2010-04-06_at_23.12_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000009')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00000a'), "text"=>"RT @iharryshum: Heather Morris...is incredible tonight! So happy for her!!!  Go Hemo!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1131708792/49068_1196978115_588_q_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff00000b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00000c'), "text"=>"Heather Morris did it!haha!!she outshined Lea Michele on this weeks episode..kinda like her more than Lea Michele...."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/575543647/ACW_dmn_twitter_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff00000d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00000e'), "text"=>"Like others said, Heather Morris' moves (she is a pro dancer, people) made her parts awesome. Lea's seemed awkward. But I liked the end!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1285694546/images/default_profile_4_normal.png", "_id"=>BSON::ObjectID('4ca2bd6205429123ff00000f')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000010'), "text"=>"@dzeek73 $100,000 Gift Card Free, Hurry Up! http://bit.ly/aPtLwP Heather Morris"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/852152902/IMG_5381_2_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000011')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000012'), "text"=>"another AMAZING #GLEE episode! TOXIC choreography was AMAZING! Heather Morris=AMAZING. @msleamichele ,baby one more time=AMAZING!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1117554134/825b8f8f25387974b958f0ef08872db4_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000013')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000014'), "text"=>"OH MY GOD! @NayaRivera Heather Morris @alittlelamb &lt;3 i have missed this trio!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1095178841/35213_1528269210608_1351032737_1402369_7084879_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000015')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000016'), "text"=>"That's right, Heather Morris is trending. What NAO, SYTYCD? #gaysharks"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1129657734/hermioneforest_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000017')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff000018'), "text"=>"Britney Spears episode and Heather Morris are still trending. That is awesome."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/673948091/11043_797966895882_10108295_46385489_4743161_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff000019')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00001a'), "text"=>"The Britney Spears episode of Glee is AMAZING!!! Heather Morris killed it tonight.  Have I mentioned that I love this show???"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1118907953/hayleyblonde_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff00001b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00001c'), "text"=>"RT @iharryshum: Heather Morris...is incredible tonight! So happy for her!!!  Go Hemo!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1130106747/Crowley_0101_twitterpic_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd6205429123ff00001d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd6205429123ff00001e'), "text"=>"Girl you were so amazing. I love you both!RT @TVGuide: #GLEE's Heather Morris on her singing debut: I Was So Nervous! http://bit.ly/9toweq"}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1127777075/dibob_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000001')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000002'), "text"=>"Geise Arruda #fail (N)"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1120640395/129919490_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000003')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000004'), "text"=>"@WerneckSupport rio pode acreditar geise arruda ganhou o carro"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1057393745/twitterdoinferno444_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000005')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000006'), "text"=>"RT @GennteFina: Por isso que a Baleia do twitter sumiu, Geise Arruda entro na fazenda!"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1129385777/111_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000007')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000008'), "text"=>"RT @paulasoveral: hahahahaha chorei!! RT @AS_BRANQUELAS_ Geise Arruda: &quot;Tenho 21 anos com esse corpinho de bebê.&quot; Sim. De bebê dinossauro."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1057393745/twitterdoinferno444_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000009')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000000a'), "text"=>"RT @Exorcistaonline: Geise Arruda: &quot;Tenho 21 anos com esse corpinho de bebê.&quot; Sim. De bebê dinossauro."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/979301848/Eu_Show_Madonna_2008_Twitter_3__normal.jpeg", "_id"=>BSON::ObjectID('4ca2bd69054291240000000b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000000c'), "text"=>"RT @mousserello: Com a Geise Arruda na Fazenda vem a dúvida, ela vai ficar no galinheiro ou no curral?"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1125336456/IMAGE_012c_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd69054291240000000d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000000e'), "text"=>"@Endiesouza safadeza oculta? isso é TT? Aqui no máximo tem Geise Arruda e Britney Spears. Nada de oculto..."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1100886152/008b_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd69054291240000000f')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000010'), "text"=>"Pra assistir a fazenda com a Geise Arruda vo te que compra uma tv de 42'' pq nao vai cabe na minha de 20"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1112258969/imagem888_normal.JPG", "_id"=>BSON::ObjectID('4ca2bd690542912400000011')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000012'), "text"=>"RT @samaraassi: Geise Arruda : &quot;Tenho 21 anos com esse corpinho de bebê.&quot; Sim. De bebê dinossauro."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1099582282/06-08-10_202636cutted_normal.JPG", "_id"=>BSON::ObjectID('4ca2bd690542912400000013')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000014'), "text"=>"RT @paulasoveral: hahahahaha chorei!! RT @AS_BRANQUELAS_ Geise Arruda: &quot;Tenho 21 anos com esse corpinho de bebê.&quot; Sim. De bebê dinossauro."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1060294653/Sem_t_tulo_3_normal.bmp", "_id"=>BSON::ObjectID('4ca2bd690542912400000015')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000016'), "text"=>"RT @Exorcistaonline: Geise Arruda: &quot;Tenho 21 anos com esse corpinho de bebê.&quot; Sim. De bebê dinossauro."}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1114707102/juuu_normal.JPG", "_id"=>BSON::ObjectID('4ca2bd690542912400000017')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd690542912400000018'), "text"=>"RT @AiltonRibbeiro: MAs bem que #AFazenda serviu de alguma coisa; LEVOU NOSSA BALEIA DO TT pra láaa( (GEISE ARRUDA) RT #achoJusto"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1126783961/DSC_0129_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd690542912400000019')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000001a'), "text"=>"Gateway Avenue and Superior Avenue, located perpendicular to Gul http://bit.ly/cLyCZy\n Geise Arruda"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png", "_id"=>BSON::ObjectID('4ca2bd69054291240000001b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000001c'), "text"=>"A fazenda só vai ter putaria com a Geise Arruda, até imagino ¬¬"}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1131153253/eu_e_a_pri22_normal.jpg", "_id"=>BSON::ObjectID('4ca2bd69054291240000001d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2bd69054291240000001e'), "text"=>"geise arruda , tico santa cruz e sergio malandro no TT mundial.... O MUNDO VAI ACABAR !!!!!!!!!!!!!! FAIL...."}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:16:02 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (7.0ms)
+Completed   in 15ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2197412460_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197412460_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:16:28 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 19ms (Views: 18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:16:40 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (6.4ms)
+Completed   in 14ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    4:       %h5
+    5:       = t.text
+    6:       %br
+    7:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:7:in `to_s'
+  app/views/twits/index.html.haml:7:in `_app_views_twits_index_html_haml__389916504_2195411860_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2195411860_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1117371188/l_2ab67268abc24077b6a26cb729cc22cf_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000001')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000002'), "text"=>"RT @Kels6471: RT @jazz_tay832: take the rubber off so you can feel the real me..? #flagontheplay ... #nokids #nodisease"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000003'), "twitted_at"=>Wed Sep 29 04:19:13 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1285694546/images/default_profile_6_normal.png", "_id"=>BSON::ObjectID('4ca2beb80542912408000004')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000005'), "text"=>"Being sick at the most inopportune of times... #shenanigans #flagontheplay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000006'), "twitted_at"=>Wed Sep 29 04:19:13 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1117591235/0zvaAapN", "_id"=>BSON::ObjectID('4ca2beb80542912408000007')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000008'), "text"=>"ur in the 9th/10th grade trynna holla at me #flagontheplay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000009'), "twitted_at"=>Wed Sep 29 04:19:12 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1128703200/181644666_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb8054291240800000a')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800000b'), "text"=>"RT @Carmen_Rox: Tryna give me your house number #flagontheplay -_________-&lt;&lt;#epicfail majorrrrr"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800000c'), "twitted_at"=>Wed Sep 29 04:19:12 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1127207018/454915a2-10f5-4cc4-8c5b-f8aa9bfc8abe_normal.png", "_id"=>BSON::ObjectID('4ca2beb8054291240800000d')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800000e'), "text"=>"If your p**** looks extinct and you expect someone to eat it #FlagOnThePlay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800000f'), "twitted_at"=>Wed Sep 29 04:19:11 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1123458651/me_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000010')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000011'), "text"=>"It's kosher for Men to pursue things with much less experienced women, but the other way around #flagontheplay . U end up a #jarloosener"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000012'), "twitted_at"=>Wed Sep 29 04:19:10 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1130963271/cinn_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000013')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000014'), "text"=>"Shortys gettin nigs killed over pussy #flagontheplay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000015'), "twitted_at"=>Wed Sep 29 04:19:09 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1130150027/IMG00454-20100923-2155_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000016')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000017'), "text"=>"Hahahahaha! RT @CAPITOsWay: RT @misskaribaybee: sus. RT @JustBStarr: Sum Wacka Flocka tOnight would be #niiiiiiiiiiiice -- #FLAGonthePLAY"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000018'), "twitted_at"=>Wed Sep 29 04:19:07 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1115649907/ctmoney_twitpic_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000019')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800001a'), "text"=>"U still gettin on myspace faithfully #FlagOnThePlay its 2010 we #OffThat"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800001b'), "twitted_at"=>Wed Sep 29 04:19:07 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1128348601/9230_1239825669441_1043250744_758438_1758270_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb8054291240800001c')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800001d'), "text"=>"bitch tryin to give a niga head wit braces on #FlagOnThePlay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800001e'), "twitted_at"=>Wed Sep 29 04:19:06 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1131618627/19273_1230186627642_1018407342_30556934_1655807_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb8054291240800001f')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000020'), "text"=>"#flagontheplay she got a deeper voice then you"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000021'), "twitted_at"=>Wed Sep 29 04:19:06 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1129210638/182108977_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000022')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000023'), "text"=>"U r  waka flocka flame. #FlagOnThePlay."}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000024'), "twitted_at"=>Wed Sep 29 04:19:05 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1126378496/179545061_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000025')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000026'), "text"=>"RT @1DrLove: You crying about how he won't marry you &amp; you live with him. Hmmm...wonder why? you live with him! #flagontheplay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000027'), "twitted_at"=>Wed Sep 29 04:19:02 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1005070708/rsz_dsc02011_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb80542912408000028')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb80542912408000029'), "text"=>"#FlagOnThePlay Who told you FUBU was back in style?"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800002a'), "twitted_at"=>Wed Sep 29 04:19:01 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1132664233/Picture_3_normal.jpg", "_id"=>BSON::ObjectID('4ca2beb8054291240800002b')}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800002c'), "text"=>"you don't read the word for yourself, you leave the bible in the car until sunday. #flagontheplay"}])
+  MONGODB twitter_development['twits'].insert([{"_id"=>BSON::ObjectID('4ca2beb8054291240800002d'), "twitted_at"=>Wed Sep 29 04:19:00 UTC 2010}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:21:24 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (13.0ms)
+Completed   in 21ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    4:       %h5
+    5:       = t.text
+    6:       %br
+    7:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:7:in `to_s'
+  app/views/twits/index.html.haml:7:in `_app_views_twits_index_html_haml__389916504_2197936700_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197936700_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:21:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (13.0ms)
+Completed   in 20ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    4:       %h5
+    5:       = t.text
+    6:       %br
+    7:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:7:in `to_s'
+  app/views/twits/index.html.haml:7:in `_app_views_twits_index_html_haml__389916504_2196637360_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196637360_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:21:26 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (13.6ms)
+Completed   in 118ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    4:       %h5
+    5:       = t.text
+    6:       %br
+    7:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:7:in `to_s'
+  app/views/twits/index.html.haml:7:in `_app_views_twits_index_html_haml__389916504_2197999300_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197999300_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:21:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (13.4ms)
+Completed   in 20ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    4:       %h5
+    5:       = t.text
+    6:       %br
+    7:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:7:in `to_s'
+  app/views/twits/index.html.haml:7:in `_app_views_twits_index_html_haml__389916504_2196634640_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196634640_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:21:52 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (108.7ms)
+Completed   in 116ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2195363220_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2195363220_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:22:05 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (7.0ms)
+Completed   in 15ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2196794300_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196794300_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:22:07 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (6.1ms)
+Completed   in 13ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2195580780_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2195580780_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:22:07 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (6.3ms)
+Completed   in 13ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2197287040_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197287040_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:22:08 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (6.3ms)
+Completed   in 13ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2196099240_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196099240_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (105.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (112.0ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/829603294/SuccessfulTrollIRL_normal.png", "_id"=>BSON::ObjectID('4ca2bf790542912417000001'), "text"=>":( que pena RT @elcomercio: Murió la actriz argentina Romina Yan, protagonista de la recordada telenovela &quot;Chiquititas&quot; http://goo.gl/LGtO", "twitted_at"=>Wed Sep 29 04:22:20 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1131753172/27870_115605905140064_100000719644942_122876_6281654_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000002'), "text"=>"Romina Yan 5/09/1974 - 28/09/2010†", "twitted_at"=>Wed Sep 29 04:22:16 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1127955085/septiembre_075_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000003'), "text"=>"Pese a la fea noticia d la muerte d Romina Yan, pasé un lindo cumple cn la gente q quiero, muy divertido! Gracias! A dormir! #BuenasNoches", "twitted_at"=>Wed Sep 29 04:22:12 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1071618298/spainworldcup_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000004'), "text"=>"Romina Yan Dies Of Heart Attack At Age 36 http://bit.ly/9rW613", "twitted_at"=>Wed Sep 29 04:22:12 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1126532199/DSC01387_copia_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000005'), "text"=>"ey.. feo lo de Romina Yan. No era de mis preferidas, pero me dió un nosequé... fea noticia.", "twitted_at"=>Wed Sep 29 04:22:05 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1107627170/Winter_Leaves_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000006'), "text"=>"ROMINA YAN MADRE Y MUJER EJEMPLAR  http://goo.gl/N4dP", "twitted_at"=>Wed Sep 29 04:21:58 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1051303738/feer_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000007'), "text"=>"Romina Yan por siempre ♥", "twitted_at"=>Wed Sep 29 04:21:57 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1115364010/41399_1204347215_4524_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000008'), "text"=>"que tristeza cuando me entere de la muerte de Romina Yan una actriz a la que segui en todas las novelas  que injusta es la vida aveces", "twitted_at"=>Wed Sep 29 04:21:56 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1133192619/luz_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf790542912417000009'), "text"=>"RT @rairc: KRKS A VERDADEIRA PROTAGONISTA DA VERSÃO ORIGINAL DE CHIQUITITAS MORREU ROMINA YAN PRA QUE NÃO CONHECE.", "twitted_at"=>Wed Sep 29 04:21:55 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1133406150/33703_134731506574770_134730899908164_179287_6493409_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf79054291241700000a'), "text"=>"RT @diegotorres: Me acabo de enterar lo de Romina Yan y no lo puedo creer!mi mas sentido pesame a Gustavo,Cris,Tomas, su marido y sus hijos,que tristeza!!", "twitted_at"=>Wed Sep 29 04:21:51 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1285694546/images/default_profile_6_normal.png", "_id"=>BSON::ObjectID('4ca2bf79054291241700000b'), "text"=>"que tristesa hoy con lo de romina yan no lo puedo crer q injustisia con dios no", "twitted_at"=>Wed Sep 29 04:21:49 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1118914506/41252_1382697293546_1415396707_30889883_1563355_n_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf79054291241700000c'), "text"=>"romina yan la mejor", "twitted_at"=>Wed Sep 29 04:21:45 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1052964973/n555859973_1904173_3836_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf79054291241700000d'), "text"=>"Los fans de Romina Yan se juntan hoy a las 19 hs en el Obelisco con una rosa blanca. Van hasta el Rex, a modo de &quot;agradecimiento&quot;.", "twitted_at"=>Wed Sep 29 04:21:44 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/754103111/71_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf79054291241700000e'), "text"=>"http://bit.ly/dcO2LH Romina Yan Dies at 36? . romina yan", "twitted_at"=>Wed Sep 29 04:21:43 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1095358686/DSCN9055_normal.JPG", "_id"=>BSON::ObjectID('4ca2bf79054291241700000f'), "text"=>"RT @LuisVenturaSoy: ¡QUE CACHETAZO AL ALMA, LA MUERTE DE ROMINA YAN! UN PIBA FENOMENAL... TAN JOVEN, TRES CHICOS... DESGARRADOR, DE LA NADA EL ADIOS", "twitted_at"=>Wed Sep 29 04:21:41 UTC 2010}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1129190072/DSC03302_normal.JPG", "_id"=>BSON::ObjectID('4ca2bf800542912418000001'), "text"=>"Lamentável o debate aqui em BSB, Weslian Roriz amargou a atração e a #afazenda bombou!!!", "twitted_at"=>Wed Sep 29 04:22:31 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1105833256/147391008-c488fb13abd3d806163de9d7e6132436_4c6b3798-scaled_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf800542912418000002'), "text"=>"muito bom mesmo #afazenda nossa que da hora e quem vai ganhar vai ser o viola", "twitted_at"=>Wed Sep 29 04:22:26 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png", "_id"=>BSON::ObjectID('4ca2bf800542912418000003'), "text"=>"&quot;Bem vindo ao mundo real, é uma droga, você vai amar!&quot; #afazenda", "twitted_at"=>Wed Sep 29 04:22:23 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1122431175/david_rog_rio_normal.png", "_id"=>BSON::ObjectID('4ca2bf800542912418000004'), "text"=>"Gostei das pessoas que estão participando da #afazenda achei potencial.", "twitted_at"=>Wed Sep 29 04:22:21 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/233640478/eu3_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf800542912418000005'), "text"=>"RT @matheusbat: Olha só q legal #AFazenda esta trazendo animais novos,além de vacas e galinhas , agora tem mamiferos aquaticos ; Geise &quot;baleia&quot; Arruda", "twitted_at"=>Wed Sep 29 04:22:18 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1130436599/IMG2515A_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf800542912418000006'), "text"=>"E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou “Huum acho que hoje vou pra Facul com esse vestidinho rosa” #AFazenda", "twitted_at"=>Wed Sep 29 04:22:00 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1133522551/feueueu_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf800542912418000007'), "text"=>"E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou “Huum acho que hoje vou pra Facul com esse vestidinho rosa” #AFazenda", "twitted_at"=>Wed Sep 29 04:21:59 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1081990523/recentme_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf800542912418000008'), "text"=>"#afazenda to torcendo pela @piu-piu", "twitted_at"=>Wed Sep 29 04:21:51 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1054227128/MSN_normal.JPG", "_id"=>BSON::ObjectID('4ca2bf800542912418000009'), "text"=>"kkkkkkkkkkkkkkk RT @jooseanee: A produção não esqueceu da cama da Geisy Arruda, ela que não encontrou no celeiro. #AFazenda", "twitted_at"=>Wed Sep 29 04:21:38 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1125218536/SDC10674a_normal.JPG", "_id"=>BSON::ObjectID('4ca2bf80054291241800000a'), "text"=>"Agora sim vou dormir. #Afazenda me agitou um pouco! Fuison...", "twitted_at"=>Wed Sep 29 04:21:25 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1131834372/631ced84-3e54-4792-827b-7d6e55e55565_normal.png", "_id"=>BSON::ObjectID('4ca2bf80054291241800000b'), "text"=>"Tentei assistir #afazenda pela internet e o conteúdo não esta disponivel pra minha região. Excluiram o nordeste???", "twitted_at"=>Wed Sep 29 04:21:16 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1125892324/1_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf80054291241800000c'), "text"=>"@fazendarecord tá informando que não está disponível para minha região. #afazenda", "twitted_at"=>Wed Sep 29 04:21:10 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1083932141/JULIO_normal.png", "_id"=>BSON::ObjectID('4ca2bf80054291241800000d'), "text"=>"Realmente muito boa a qualidade do streaming de #AFazenda no R7.com http://yfrog.com/9fpdvp", "twitted_at"=>Wed Sep 29 04:21:08 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1121138906/16275418_normal.jpg", "_id"=>BSON::ObjectID('4ca2bf80054291241800000e'), "text"=>"ah eu ammmei a #afazenda, foi muito bom, GEISY, ganhoou o carro sooortuda", "twitted_at"=>Wed Sep 29 04:21:01 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1108331908/1914_normal.png", "_id"=>BSON::ObjectID('4ca2bf80054291241800000f'), "text"=>"RT @tiodino: Sérgio Mallandro pode dizer o quanto quiser &quot;ié,ié&quot;, que não chega aos pés das vezes que a Dilma falou &quot;Lula&quot; na campanha. #afazenda", "twitted_at"=>Wed Sep 29 04:20:43 UTC 2010}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:24:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (24.4ms)
+Completed   in 36ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2197936740_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197936740_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:24:47 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (22.4ms)
+Completed   in 30ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2196508700_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2196508700_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:27:00 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (23.6ms)
+Completed   in 31ms
+
+ActionView::Template::Error (can't convert nil into String):
+    2:   - @twits.each do |t|
+    3:     %li.info
+    4:       %h5
+    5:         = image_tag(t.profile_image_url)
+    6:       = t.text
+    7:       %br
+    8:       = t.twitted_at.to_s(:short)
+  app/views/twits/index.html.haml:5:in `_app_views_twits_index_html_haml__389916504_2197763480_0'
+  app/views/twits/index.html.haml:2:in `_app_views_twits_index_html_haml__389916504_2197763480_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:27:16 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (29.0ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1120410551/P5082431_normal.JPG", "_id"=>BSON::ObjectID('4ca2c0950542912426000001'), "text"=>"Depois de surtar em #afazenda, ver minha escala até os 10 próximos dias e rir mto de gente idiota, fica o mue beijo de boa noite!", "twitted_at"=>Wed Sep 29 04:26:52 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1128470139/Dialetica-BRASIL-ESCOLA_normal.jpg", "_id"=>BSON::ObjectID('4ca2c0950542912426000002'), "text"=>"@eugiselle mais que lindo vc quer um PPV #afazenda, isso vai tirar sua virgindade.", "twitted_at"=>Wed Sep 29 04:26:45 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png", "_id"=>BSON::ObjectID('4ca2c0950542912426000003'), "text"=>"RT @feeuu: E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou “Huum acho que hoje vou pra Facul com esse vestidinho rosa” #AFazenda", "twitted_at"=>Wed Sep 29 04:26:44 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1129999713/twiteeeer_normal.jpg", "_id"=>BSON::ObjectID('4ca2c0950542912426000004'), "text"=>"Que VERGONHA desses participantes!!! #AFazenda", "twitted_at"=>Wed Sep 29 04:26:43 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1110255574/WRUN2_normal.jpg", "_id"=>BSON::ObjectID('4ca2c0950542912426000005'), "text"=>"#afazenda E tao trash que vai virar cult! Em breve ate o @realjabor vai estar comentando!", "twitted_at"=>Wed Sep 29 04:26:31 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1131406626/a1c560ab-e183-4558-94d4-f450ce7b5633_normal.png", "_id"=>BSON::ObjectID('4ca2c0950542912426000006'), "text"=>"Qe isso o povo qer q o Theo Becker participe de #AFazenda outra vez :S  Seria lgl vê-lo brigando com os novos participantes. rsrs", "twitted_at"=>Wed Sep 29 04:26:30 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1056644287/gabi1_normal.jpg", "_id"=>BSON::ObjectID('4ca2c0950542912426000007'), "text"=>"RT @AlexandreMedina: E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou &quot;Huum acho que hoje vou pra Facul com esse vestidinho rosa&quot; #AFazenda", "twitted_at"=>Wed Sep 29 04:26:28 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png", "_id"=>BSON::ObjectID('4ca2c0950542912426000008'), "text"=>"O que foi a estreia de #Afazenda gente ? a reporter ja caindo em cima do modelo, o sérgio abreu com o passado sujo com o cabelereiro #fail", "twitted_at"=>Wed Sep 29 04:26:22 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1121157626/redtiger_p_normal.jpg", "_id"=>BSON::ObjectID('4ca2c0950542912426000009'), "text"=>"Cadastro do site r7.com continua possuído pelo demônio. Alguém chame o Edir Macedo pra exorcizar a peste. #geise #afazenda", "twitted_at"=>Wed Sep 29 04:26:16 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1034579779/SDC13256_-_C_pia_normal.JPG", "_id"=>BSON::ObjectID('4ca2c095054291242600000a'), "text"=>"@Hehrica ahsuhausa eh tao ruim assim?? hj eu assisti a fazenda #afazenda", "twitted_at"=>Wed Sep 29 04:26:14 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1285694546/images/default_profile_3_normal.png", "_id"=>BSON::ObjectID('4ca2c095054291242600000b'), "text"=>"RT @feeuu: E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou “Huum acho que hoje vou pra Facul com esse vestidinho rosa” #AFazenda", "twitted_at"=>Wed Sep 29 04:26:07 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1126356582/do__hiirano___43__normal.jpg", "_id"=>BSON::ObjectID('4ca2c095054291242600000c'), "text"=>"RT @DuCostaReal: A melhor parte de #AFazenda 3 Titia Monique Evans.. Arrasou #Adoro", "twitted_at"=>Wed Sep 29 04:25:40 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1131144539/imagem_normal.JPG", "_id"=>BSON::ObjectID('4ca2c095054291242600000d'), "text"=>"Velhos tempos era casa dos artistas... Bem melhor que esse lixo #afazenda", "twitted_at"=>Wed Sep 29 04:25:31 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1089444080/eu_2_normal.jpg", "_id"=>BSON::ObjectID('4ca2c095054291242600000e'), "text"=>"@HugoGloss estou sentindo falta dos seus comentes sobre #afazenda", "twitted_at"=>Wed Sep 29 04:25:07 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1114054202/d97dcae4-2140-45b6-9967-39044ef19a41_normal.png", "_id"=>BSON::ObjectID('4ca2c095054291242600000f'), "text"=>"RT @AlexandreMedina: E pensar que tudo começou quando a Geisy olhou o garda-roupa e pensou &quot;Huum acho que hoje vou pra Facul com esse vestidinho rosa&quot; #AFazenda", "twitted_at"=>Wed Sep 29 04:24:58 UTC 2010}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1132984896/Eyes_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d0542912428000001'), "text"=>"RT @gimmebritney: Not long to wait now for us Aussies. @channelten will air the episode in just over 5 hours at 7:30pm AEST Britney Spears.", "twitted_at"=>Wed Sep 29 04:27:08 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1117558014/Road_trip_to_TN_085_normal.JPG", "_id"=>BSON::ObjectID('4ca2c09d0542912428000002'), "text"=>"super upset that i missed the #Britney Spears episode of glee. puppy preschool was not worth it", "twitted_at"=>Wed Sep 29 04:27:07 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1285021636/images/default_profile_6_normal.png", "_id"=>BSON::ObjectID('4ca2c09d0542912428000003'), "text"=>"loved the Britney Spears episode of Glee! :)", "twitted_at"=>Wed Sep 29 04:27:04 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1133528959/gleeicon1_normal", "_id"=>BSON::ObjectID('4ca2c09d0542912428000004'), "text"=>"RT @Lord_Voldemort7: I'll be appearing in the Britney Spears episode of Glee tonight as the snake Brit dances with. That's right, she's a slave for me.", "twitted_at"=>Wed Sep 29 04:27:03 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/1128201135/profile_image_1285075154485_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d0542912428000005'), "text"=>"Ughhhhhh.. I want to watch Britney Spears glee episode!!!", "twitted_at"=>Wed Sep 29 04:27:02 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a3.twimg.com/profile_images/858244895/questionmarkman_normal.png", "_id"=>BSON::ObjectID('4ca2c09d0542912428000006'), "text"=>"The only thing I'd put inside Britney Spears is the nose of my GS650. Sorry NetJets. #Britney Spears episode #NetJets", "twitted_at"=>Wed Sep 29 04:26:57 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1123374038/3437751358_ca58c8a62f_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d0542912428000007'), "text"=>"must watch the Britney Spears Glee episode!!! BUT, I haven't caught up to all the previous eps yet D:", "twitted_at"=>Wed Sep 29 04:26:52 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1126187462/oligrinderr_normal.png", "_id"=>BSON::ObjectID('4ca2c09d0542912428000008'), "text"=>"RT @Lord_Voldemort7: I'll be appearing in the Britney Spears episode of Glee tonight as the snake Brit dances with. That's right, she's a slave for me.", "twitted_at"=>Wed Sep 29 04:26:49 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/1098876421/5570ws5_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d0542912428000009'), "text"=>"Britney spears episode = best of all time! I love Glee and it's only okay cuz I was a drama geek in highschool", "twitted_at"=>Wed Sep 29 04:26:45 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a1.twimg.com/profile_images/258165209/031115-pola_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d054291242800000a'), "text"=>"There's an episode of Glee on Britney Spears :O !", "twitted_at"=>Wed Sep 29 04:26:39 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1080656136/alizee_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d054291242800000b'), "text"=>"@ell_ayy It's because of Glee, it was a Britney Spears episode tonight. :)", "twitted_at"=>Wed Sep 29 04:26:34 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a0.twimg.com/profile_images/1124970880/Copia_de_DSC05133_normal.JPG", "_id"=>BSON::ObjectID('4ca2c09d054291242800000c'), "text"=>"RT @M_SOLDIER: Britney Spears episode has the biggest audience of Glee. 17 Million Viewers #BritneySpearsGlee", "twitted_at"=>Wed Sep 29 04:26:32 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1284588078/images/default_profile_1_normal.png", "_id"=>BSON::ObjectID('4ca2c09d054291242800000d'), "text"=>"The House Place of work of Congressional Integrity, however, had cho http://bit.ly/dscsEI\n Britney Spears episode", "twitted_at"=>Wed Sep 29 04:26:28 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://s.twimg.com/a/1284676327/images/default_profile_5_normal.png", "_id"=>BSON::ObjectID('4ca2c09d054291242800000e'), "text"=>"I am going to buy Britney spears episode", "twitted_at"=>Wed Sep 29 04:26:21 UTC 2010}])
+  MONGODB twitter_development['twits'].insert([{"profile_image_url"=>"http://a2.twimg.com/profile_images/1122905518/rolling_stone_normal.jpg", "_id"=>BSON::ObjectID('4ca2c09d054291242800000f'), "text"=>"Can't wait for the Britney Spears episode! I'm so grateful that Australia aren't way behind for Glee.", "twitted_at"=>Wed Sep 29 04:26:21 UTC 2010}])
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:29:33 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (28.8ms)
+Completed 200 OK in 37ms (Views: 36.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:29:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.5ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:45:21 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (134.4ms)
+Completed 200 OK in 142ms (Views: 141.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:45:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:46:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (131.2ms)
+Completed   in 139ms
+
+ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+    9:     = csrf_meta_tag 
+    10:   %body
+    11:     / .container
+    12:       #header
+    13:         %h1
+    14:           TwitterMongo
+    15:       #content
+  app/views/layouts/application.html.haml:12
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:46:32 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:46:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (30.7ms)
+Completed   in 140ms
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    8:       = stylesheet_link_tag 'blueprint/ie.css', :media => 'screen, projection'
+    9:     = csrf_meta_tag 
+    10:   %body
+    11:       #header
+    12:         %h1
+    13:           TwitterMongo
+    14:       #content
+  app/views/layouts/application.html.haml:11
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:46:42 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:46:51 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 39ms (Views: 38.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:01 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:03 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 144ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:10 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (136.8ms)
+Completed 200 OK in 145ms (Views: 144.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:17 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:47:35 -0300 2010
+  Processing by TwitsController#index as HTML
+Rendered twits/index.html.haml within layouts/application (0.4ms)
+Completed   in 8ms
+
+ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
+    1:   - @twits.each do |t|
+    2:     %li.info
+    3:       %h5
+    4:         = image_tag(t.profile_image_url)
+  app/views/twits/index.html.haml:1
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (102.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (113.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:15 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:19 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (132.7ms)
+Completed 200 OK in 140ms (Views: 139.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:20 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 42ms (Views: 41.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:31 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.5ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:38 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:52 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:48:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:49:13 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 39ms (Views: 39.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:49:19 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:49:28 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.9ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:49:38 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:49:59 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.9ms)
+Completed 200 OK in 39ms (Views: 38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:01 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:06 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:15 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:20 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 141ms (Views: 140.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:31 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:44 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (133.9ms)
+Completed 200 OK in 141ms (Views: 140.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:50:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 01:55:20 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (142.7ms)
+Completed 200 OK in 150ms (Views: 150.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:37:09 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.5ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:37:16 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.3ms)
+Completed 200 OK in 143ms (Views: 142.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:38:00 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:38:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.5ms)
+Completed 200 OK in 143ms (Views: 142.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:38:56 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:42:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (138.2ms)
+Completed 200 OK in 145ms (Views: 144.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:42:39 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (40.0ms)
+Completed 200 OK in 49ms (Views: 48.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:43:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:45:23 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:46:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (35.1ms)
+Completed 200 OK in 42ms (Views: 41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:46:53 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.5ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:47:32 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 41ms (Views: 40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:47:41 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:48:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:49:07 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:49:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:49:42 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 39ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:50:29 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (37.1ms)
+Completed 200 OK in 45ms (Views: 44.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:52:45 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:52:51 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:53:14 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:54:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.2ms)
+Completed 200 OK in 42ms (Views: 41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:54:26 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 157ms (Views: 156.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:54:30 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:54:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (132.4ms)
+Completed 200 OK in 139ms (Views: 139.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:55:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:55:44 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.8ms)
+Completed 200 OK in 143ms (Views: 142.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:55:52 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:55:59 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (136.1ms)
+Completed 200 OK in 143ms (Views: 142.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:56:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.8ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:56:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (134.6ms)
+Completed 200 OK in 142ms (Views: 141.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:57:26 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 02:57:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.8ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:08:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:46 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:46 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:08:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (38.8ms)
+Completed 200 OK in 48ms (Views: 47.4ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:49 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:49 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:08:55 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (133.1ms)
+Completed 200 OK in 140ms (Views: 139.7ms)
+
+
+Started GET "/stylesheets/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:56 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:56 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:08:57 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/stylesheets/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:57 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:08:58 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:09:03 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/stylesheets/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:03 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/stylesheets/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:04 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:09:19 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 42ms (Views: 41.2ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:19 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/images/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:19 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/images/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:09:31 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:31 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:09:31 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:10:01 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (137.4ms)
+Completed 200 OK in 144ms (Views: 143.7ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:02 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:02 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:10:03 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:03 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:03 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:10:29 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 41ms (Views: 41.0ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:29 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:10:29 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:10:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:22 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (134.1ms)
+Completed 200 OK in 141ms (Views: 140.8ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:22 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:22 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:34 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:34 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (41.5ms)
+Completed 200 OK in 51ms (Views: 50.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:35 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:36 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:36 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (46.3ms)
+Completed 200 OK in 58ms (Views: 56.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:36 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:36 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:38 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:39 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:39 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (147.5ms)
+Completed 200 OK in 156ms (Views: 155.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:47 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (47.7ms)
+Completed 200 OK in 56ms (Views: 54.6ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:47 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:47 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:11:55 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:55 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:11:55 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:12:01 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (133.7ms)
+Completed 200 OK in 141ms (Views: 140.5ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:01 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:02 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:12:19 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 41ms (Views: 40.7ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:19 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:19 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:12:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:27 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:27 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:12:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/stylesheets/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:34 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/rails.png" for 127.0.0.1 at Wed Sep 29 03:12:34 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:12:49 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:13:31 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/stylesheets/public/imagens/rails" for 127.0.0.1 at Wed Sep 29 03:13:31 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/public/imagens/rails" for 127.0.0.1 at Wed Sep 29 03:13:32 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:13:36 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 39ms (Views: 38.5ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:13:36 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:13:36 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:30:11 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:30:11 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:30:11 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:31:56 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.7ms)
+Completed   in 39ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:           =image_tag(t.profile_image_url)
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14:in `t'
+  app/views/layouts/application.html.haml:14:in `_app_views_layouts_application_html_haml___1918692346_2197782920_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed   in 41ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:           =image_tag()
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14:in `image_tag'
+  app/views/layouts/application.html.haml:14:in `_app_views_layouts_application_html_haml___1918692346_2196295620_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (112.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:11 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.6ms)
+Completed   in 39ms
+
+ActionView::Template::Error (Inconsistent indentation: "          \t" was used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:           	=image_tag()
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:13 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (30.0ms)
+Completed   in 37ms
+
+ActionView::Template::Error (Inconsistent indentation: "          \t" was used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:           	=image_tag()
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:16 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (30.5ms)
+Completed   in 38ms
+
+ActionView::Template::Error (Inconsistent indentation: 11 spaces were used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:            =image_tag()
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (130.2ms)
+Completed   in 138ms
+
+ActionView::Template::Error (Inconsistent indentation: 11 spaces were used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:            =image_tag('../../rails.png')
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:47 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.1ms)
+Completed   in 38ms
+
+ActionView::Template::Error (Inconsistent indentation: 11 spaces were used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:     .container
+    12:       #header
+    13:         %h2
+    14:            =image_tag('../../rails.png')
+    15:       #content
+    16:         = yield
+    17: 
+  app/views/layouts/application.html.haml:14
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:32:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:32:58 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:32:58 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:33:03 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.7ms)
+Completed 200 OK in 143ms (Views: 142.8ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:33:04 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:33:04 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:33:18 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:33:18 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:33:18 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:33:34 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:34:05 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:34:05 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:34:05 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:34:06 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:35:01 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:35:01 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:35:01 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/public/imagens/rails.png" for 127.0.0.1 at Wed Sep 29 03:35:02 -0300 2010
+
+ActionController::RoutingError (No route matches "/public/imagens/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:35:23 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:35:54 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 41ms (Views: 40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:36:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 42ms (Views: 41.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:36:41 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:36:49 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:36:59 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 140ms (Views: 139.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:38:07 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 41ms (Views: 40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:38:11 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (134.6ms)
+Completed 200 OK in 142ms (Views: 141.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:38:17 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.6ms)
+Completed 200 OK in 38ms (Views: 38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:38:51 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (136.0ms)
+Completed 200 OK in 143ms (Views: 142.3ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:38:52 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rails.png" for 127.0.0.1 at Wed Sep 29 03:38:52 -0300 2010
+
+ActionController::RoutingError (No route matches "/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:40:12 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/stylesheets/rails.png" for 127.0.0.1 at Wed Sep 29 03:40:12 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/rails.png" for 127.0.0.1 at Wed Sep 29 03:40:12 -0300 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/rails.png"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:41:02 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:42:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.9ms)
+Completed 200 OK in 38ms (Views: 38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:43:05 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:43:22 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 41ms (Views: 40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:44:28 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 39ms (Views: 38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:44:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:44:40 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:45:02 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:45:23 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:45:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:46:41 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:46:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:47:55 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:48:07 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:48:12 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:48:15 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:48:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:49:09 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:49:40 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:49:53 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:50:05 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:50:11 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:50:29 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (34.5ms)
+Completed 200 OK in 42ms (Views: 41.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:50:55 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 141ms (Views: 140.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:50:59 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:51:25 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.0ms)
+Completed 200 OK in 142ms (Views: 141.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:51:40 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:51:42 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (137.3ms)
+Completed 200 OK in 145ms (Views: 144.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:51:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:51:56 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (134.7ms)
+Completed 200 OK in 142ms (Views: 141.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:52:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:53:47 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:53:52 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:23 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:28 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 41ms (Views: 40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:54:48 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 39ms (Views: 38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:56:15 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:57:32 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:57:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 41ms (Views: 40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:57:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:58:29 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 39ms (Views: 38.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:58:39 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:58:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 40ms (Views: 40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:59:30 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (132.6ms)
+Completed 200 OK in 140ms (Views: 139.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 03:59:33 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:00:19 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (132.8ms)
+Completed 200 OK in 140ms (Views: 139.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:00:34 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:00:36 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.8ms)
+Completed 200 OK in 143ms (Views: 143.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:00:49 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:00:58 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (136.5ms)
+Completed 200 OK in 144ms (Views: 143.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:12 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:42 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (42.6ms)
+Completed 200 OK in 50ms (Views: 49.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:43 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:01:44 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:02:09 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:02:44 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:03:10 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 42ms (Views: 41.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:03:53 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 40ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:04:06 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:04:38 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:04:53 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 39ms (Views: 38.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:05:13 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:05:24 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.8ms)
+Completed 200 OK in 143ms (Views: 142.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:06:27 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:07:35 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (135.3ms)
+Completed 200 OK in 142ms (Views: 141.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:07:46 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.4ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:07:51 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (138.1ms)
+Completed 200 OK in 145ms (Views: 144.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:07:57 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (32.8ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:08:04 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (136.3ms)
+Completed 200 OK in 143ms (Views: 142.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:08:09 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (31.7ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:08:16 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:09:24 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (33.2ms)
+Completed 200 OK in 40ms (Views: 40.0ms)
+  MONGODB admin['$cmd'].find({:ismaster=>1}, {}).limit(-1)
+  MONGODB admin['$cmd'].find({:buildinfo=>1}, {}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at Wed Sep 29 04:22:29 -0300 2010
+  Processing by TwitsController#index as HTML
+  MONGODB twitter_development['twits'].find({}, {}).limit(40).sort([[:twitted_at, :desc]])
+  MONGODB cursor.close 0
+Rendered twits/index.html.haml within layouts/application (35.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms)

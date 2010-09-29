@@ -1,0 +1,8 @@
+%ul.twits
+  - @twits.each do |t|
+    %li.info
+      %h5
+        = image_tag(t.profile_image_url)
+      = t.text
+      %br
+      = t.twitted_at.to_s(:short)
