@@ -1,13 +1,13 @@
-===	Tenha instalando
+===	Tenha instalado
 
 O mongoDB => http://www.mongodb.org
 O rails 3 => http://rubyonrails.org/download.
 
-===	Antes de Testa
+===	Antes de testa
 
-mongoid.yml 		#configuracao do MongoDB em localhost
+mongoid.yml 		#MongoDB em localhost
 bundle install 		#instalar dependecias 
-rake mongo:write    #gravar um trend no MongoDB
+rake mongo:write        #gravar um trend no MongoDB
 
 ===	Testando
 
